@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Point</title>
+    <link rel="stylesheet" href="">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Righteous', cursive;
+        background-image: url('Image/music.jpg');
+        background-size: 100%;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 7px;
+        top: 27px;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        width: 120px;
+        filter: invert(100%);
+        padding: 0px 25px;
+        margin: 2px 40px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 1.5;
+        font-size: 20px;
+        color: white;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px 282px;
+        /* border: 2px solid green; */
+        background-color: black;
+        border-radius: 10px;
+        border: 2px solid gray;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 29px;
+        /* border: 2px solid blue; */
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 8px 30px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Righteous', cursive;
+        margin: 5px 2px;
+        padding: 4px 20px;
+        background: black;
+        color: white;
+        border-radius: 10px;
+        border: 2px solid gray;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+
+    .container {
+        /* border: 2px solid white; */
+        border-radius: 10px;
+        margin: 63px 43px;
+        padding: 30px 40px;
+        width: 46%;
+    }
+
+    .form-group input {
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: 2px solid gray;
+        border-radius: 10px;
+        display: block;
+        margin: 5px auto;
+        width: 75%;
+        padding: 5px 16px;
+        font-size: 19px
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 20px;
+        color:rgb(247 147 0 / 89%);
+    }
+
+    .container button {
+        display: block;
+        width: 75%;
+        margin: 5px auto;
+        padding: 5px 16px;
+        font-size: 19px;
+        border-radius: 10px;
+    }
+
+    .container button:hover {
+        background-color: gray;
+        cursor: pointer;
+    }
+</style>
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Image/dance-club-logo.jpg" alt="">
+            <div>
+                Talib Music Point
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Music Type</a></li>
+                <li><a href="">Conatct Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join The Best Music Point Of Lucknow Now</h3>
+        <form action="">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Enter Your Email id">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Phone Number">
+            </div>
+            <button class="btn">Submit Now</button>
+        </form>
+    </div>
+</body>
+
+</html>
